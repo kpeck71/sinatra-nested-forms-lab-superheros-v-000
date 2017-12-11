@@ -3,7 +3,7 @@
 
 <p><% @members.each_with_index do |member, i| %></p>
 <p>Hero #<%= i+1 %></p>
-<p>Hero Name: <%= member.name %></p>
+<p>Hero Name: <%= @members[:name] %></p>
 <p>Hero Power: <%= member.power %></p>
 <p>Hero Biography: <%= member.bio %></p>
 <%end%>
